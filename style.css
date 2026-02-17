@@ -1,0 +1,90 @@
+/* รีเซ็ตพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* พื้นหลัง */
+body {
+    background: linear-gradient(135deg, #052644, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* กล่องหลัก */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+       
+    /* เอฟเฟกต์นีออน */
+    box-shadow:
+        0 0 5px #18159f,
+        0 0 10px #05164d,
+        0 0 20px #1c8186;
+}
+
+/* หัวข้อ */
+.heading {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* input */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* focus ตอนคลิก */
+.input:focus {
+    border-color: #4facfe;
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* ปุ่ม */
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #00f2fe;
+    border-radius: 12px;
+    background: rgb(29, 134, 204);
+    color: #f6f9f9;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+
+/* hover */
+.btn:hover {
+    background: #00c6ff;
+}
+
+/* ผลลัพธ์ */
+.info-text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* ค่า BMI */
+#bmi-result {
+    background: #f5f7fa;
+    font-weight: bold;
+}

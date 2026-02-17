@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI for you.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class= "container">
+       <h1 class="heading">Body mass index (BMI) calculator</h1> 
+       ส่วนสูง (ซม.) :
+       <input type="number" class="input" id="height" value="180"
+         plaseholder="Enter your height in cm">
+       น้ำหนัก (กก.) :
+       <input type="number" class="input" id="weight" valuee="80"
+        plaseholder="Enter your weight in kg">
+        <button class="btn" id="btn">คำนวณ BMI</button>
+       ค่า BMI ของคุณ :
+        <input disabled type="text" class="input" id="bmi-result">
+        <h4 class="info-text">สภาวะน้ำหนักของคุณ: <span id="weight-condition"></span></h4>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
